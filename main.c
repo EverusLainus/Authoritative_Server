@@ -79,7 +79,7 @@ uint16_t get_16bits(const uint8_t **buff){
 //fills addr field of response record struct
 int get_A_record(uint8_t addr[4], const char domain_name[]){
     //printf("domain name is %s\n", domain_name);
-    int strcmp_res = strcmp(domain_name, "www.everus.com") ;
+    int strcmp_res = strcmp(domain_name, "everus.lainus.com") ;
     if( strcmp_res  == 0){
         //printf("into if\n");
         addr[0] = 192;

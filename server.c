@@ -32,7 +32,7 @@ struct dns_server server;
 //config to host "0.0.0.0" listening at "53"
 void dns_init (void)
 {
-	printf ("DNS authoritative server for www.everus.com listening at port 53\n");
+	printf ("DNS authoritative server for everus.lainus.com listening at port 53\n");
 
 	server.config.file= NULL;
 	server.config.fg = 0;

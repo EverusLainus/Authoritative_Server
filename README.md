@@ -6,7 +6,7 @@ A simple Authoritative Server for a domain name using poll.
 ## usage
 
 Test the program using dig command:
-    dig @127.0.0.1 -p 53 www.everus.com
+    dig @127.0.0.1 -p 53 everus.lainus.com
 
 # DNS packet structure
 
